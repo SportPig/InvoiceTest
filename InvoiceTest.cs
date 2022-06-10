@@ -11,7 +11,7 @@ namespace InvoiceTest
             Console.WriteLine(("").PadRight(34, '-'));
             Console.WriteLine();
 
-            //create object of Invoice
+            //create object of Invoice - invoice
             Invoice inv = new Invoice("Z58966TG776", "Brake Pads", 25, 52.69);
             double cost = inv.getInvoiceAmount();
             Console.WriteLine("Part Number = {0}", inv.PartNumber, inv.PartDescription, inv.Quantity, inv.Price, cost);

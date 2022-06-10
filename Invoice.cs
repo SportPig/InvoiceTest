@@ -13,6 +13,7 @@ namespace InvoiceTest
         int quantity;
         double price;
 
+        //set part
         public string PartNumber
         {
             get { return partNumber; }
